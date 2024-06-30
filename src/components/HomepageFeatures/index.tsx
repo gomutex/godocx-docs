@@ -11,16 +11,16 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Pure Go Library',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/feature1.svg').default,
     description: (
       <>
-        Godocx is a library written in pure Go, requiring no external dependencies for DOCX file manipulation.
+        An open source library written in pure Go for Docx file manipulation.
       </>
     ),
   },
   {
     title: 'Read and Modify DOCX Files',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/feature2.svg').default,
     description: (
       <>
         You can open existing docx files and modify them. You can create from scratch and work on it.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Features',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/feature3.svg').default,
     description: (
       <>
         It has basic functionalities including adding paragraphs, headings, tables, adding picture.
